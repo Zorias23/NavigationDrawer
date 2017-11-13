@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/actionHome"
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actionUtil"
+        android:title="Utility"
+        android:icon="@drawable/utility_icon"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actionSettings"
+        android:title="Settings"
+        app:showAsAction="never" />
+</menu>
